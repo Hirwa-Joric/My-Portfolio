@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>404 - Page Not Found | Full Stack Developer</title>
+    <meta
+      name="description"
+      content="The page you're looking for could not be found. Please check the URL or return to homepage."
+    />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/simplebar.css">
+    <link rel="stylesheet" href="assets/css/gradient-bg.css">
+    <style>
+      .error-page {
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        text-align: center;
+        z-index: 1;
+      }
+      
+      .error-content {
+        max-width: 600px;
+        padding: 20px;
+        animation: fadeIn 1s ease-in;
+      }
+      
+      .error-title {
+        font-size: 120px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        color: #ffd700;
+        font-weight: 400;
+        line-height: 1;
+        position: relative;
+        left: -10px;
+      }
+      
+      .error-subtitle {
+        font-size: 24px;
+        margin: 10px 0 20px;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+      }
+      
+      .error-text {
+        font-size: 16px;
+        margin-bottom: 30px;
+        font-family: sans-serif;
+        line-height: 1.6;
+      }
+      
+      .home-button {
+        display: inline-block;
+        color: #ffd700;
+        font-size: 14px;
+        letter-spacing: 4px;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #ffd700;
+        margin-top: 25px;
+        float: left;
+        animation: fadeInUp 1s 1.8s backwards;
+        white-space: nowrap;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .home-button:hover {
+        background: #ffd700;
+        color: #333;
+      }
+
+      .tags {
+        color: #515152;
+        position: absolute;
+        bottom: 0;
+        left: 120px;
+        font-size: 18px;
+        font-family: 'La Belle Aurore', cursive;
+      }
+
+      .top-tags {
+        bottom: auto;
+        top: 35px;
+      }
+
+      .tags.top-tags {
+        margin-left: -65px;
+      }
+
+      .container.error-page {
+        width: 100%;
+        will-change: contents;
+        height: 90%;
+        min-height: 566px;
+        position: absolute;
+        opacity: 0;
+        top: 5%;
+        margin: 0 auto;
+        z-index: 1;
+        transform-style: preserve-3d;
+        animation: fadeIn 1s forwards;
+        animation-delay: 1s;
+      }
+    </style>
+  </head>
+  <body class="error-page">
+    <div id="page">
+      <span class="tags top-tags"> &nbsp;&nbsp;&nbsp;&lt;body&gt;</span>
+      <div class="container error-page">
+        <div class="error-content">
+          <h1 class="error-title">404</h1>
+          <h2 class="error-subtitle">Page Not Found</h2>
+          <p class="error-text">
+            Oops! The page you're looking for seems to have vanished into the digital void. 
+            Don't worry though, you can always head back to the homepage and start fresh.
+          </p>
+          <a href="index.html" class="home-button">GO HOME</a>
+        </div>
+      </div>
+      <span class="tags">&lt;/body&gt;<br>&lt;/html&gt;</span>
+    </div>
+
+    <div class="bg">
+      <img
+        class="jb"
+        src="assets/images/logo-s.png"
+        alt="JavaScript Developer Logo"
+      />
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 676.8 916" transform="rotate(45)">
+        <defs>
+          <style>
+            .cls-1 {
+              fill: none;
+              stroke: #ffd700;
+              stroke-miterlimit: 10;
+              stroke-width: 2px;
+              opacity: 0.3;
+            }
+          </style>
+        </defs>
+      </svg>
+    </div>
+  </body>
+</html>
