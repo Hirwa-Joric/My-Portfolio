@@ -54,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       var msg2 = "Please wait. Processing";
       var msg3 = "Your e-mail has been successfully sent. Thank You!";
       var msg4 =
-        "Failed to send your message. Please try later or contact me directly joric@gmail.com.";
+        "Failed to send your message. Please try later or contact me directly hirwajoric@gmail.com.";
       var msg5 = "Please note these are not my designs.";
       var msg6 = "Just the code.";
       var msg7 = "Double click to add more elements.";
@@ -228,14 +228,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div class="inf-map">
           Joric,<br />
-          Serbia,<br />
-          Branka RadiČevića 19/15, 22000 <br />
-          Sremska Mitrovica <br /><br />
-          <span>freelancerslobodan@gmail.com</span>
+          Rwanda,<br />
+          Kabuga <br />
+          <span>hirwajoric@gmail.com</span>
         </div>
         <div class="map-wrap">
           <div id="map"></div>
         </div>
+        <script>
+          window.onload = function() {
+            // Initialize map
+            var map = L.map('map').setView([-1.981370, 30.216641], 13);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+              attribution: '© OpenStreetMap contributors'
+            }).addTo(map);
+            
+            // Add marker
+            L.marker([-1.981370, 30.216641]).addTo(map)
+              .bindPopup('Kabuga, Rwanda')
+              .openPopup();
+          };
+        </script>
         <span class="tags bottom-tags">
           &nbsp;&nbsp;&nbsp;&lt;/body&gt;<br />
           &lt;/html&gt;
