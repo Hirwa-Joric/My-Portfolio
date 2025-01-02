@@ -228,8 +228,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div class="inf-map">
           Joric,<br />
-          Rwanda,<br />
-          Kabuga <br />
+          Kabuga, Rwanda<br />
+          Coordinates:<br />
+          S 1° 58' 52.931''<br />
+          E 30° 12' 59.906''<br />
           <span>hirwajoric@gmail.com</span>
         </div>
         <div class="map-wrap">
@@ -237,16 +239,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <script>
           window.onload = function() {
-            // Initialize map
-            var map = L.map('map').setView([-1.981370, 30.216641], 13);
+            // Initialize map with exact coordinates for Kabuga, Rwanda
+            var map = L.map('map').setView([-1.981370, 30.216641], 15);
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
               attribution: '© OpenStreetMap contributors'
             }).addTo(map);
             
-            // Add marker
-            L.marker([-1.981370, 30.216641]).addTo(map)
-              .bindPopup('Kabuga, Rwanda')
-              .openPopup();
+            // Add marker at exact coordinates
+            var marker = L.marker([-1.981370, 30.216641]).addTo(map);
+            marker.bindPopup('Kabuga, Rwanda<br>S 1° 58\' 52.931\'\'<br>E 30° 12\' 59.906\'\'').openPopup();
           };
         </script>
         <span class="tags bottom-tags">
