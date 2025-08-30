@@ -2,6 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://joric.site",
   "dependencies": {
     "@emailjs/browser": "4.4.1",
     "@fortawesome/fontawesome-svg-core": "7.0.0",
@@ -29,6 +30,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -b main",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
@@ -59,6 +62,7 @@
     "@babel/preset-react": "7.25.9",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.31.0",
+    "gh-pages": "^6.3.0",
     "prettier": "3.3.3"
   }
 }

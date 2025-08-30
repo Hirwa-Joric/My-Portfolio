@@ -39,7 +39,7 @@ const About = () => {
             />
           </h1>
           <p>
-            I’m a DevOps and Full Stack Engineer with over 2 years of
+            I’m a DevOps and Full Stack Engineer with over 4 years of
             experience, specializing in automating workflows, optimizing CI/CD
             pipelines, and deploying intelligent systems. My expertise spans
             across DevOps, full-stack, blockchain development, and aritificial

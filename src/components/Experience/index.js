@@ -10,6 +10,52 @@ import './index.scss'
 const workExperience = [
   {
     id: 1,
+    company: 'Asivate',
+    companyUrl: 'https://asivate.com',
+    position: 'Software Engineer',
+    duration: '08/2024 - Current',
+    location: 'Kigali, Rwanda',
+    achievements: [
+      'Co-founded Aaviate, developing accessible technology for the disabled.',
+      'Led software development for inclusive applications.',
+      'Ensured products met accessibility standards and user needs.',
+      'Innovated and built software to empower disabled individuals.',
+      'Spearheaded the design and development of accessible applications.',
+      'Collaborated on user-centric solutions from concept to launch.',
+    ],
+  },
+  {
+    id: 2,
+    company: 'Cryptavita',
+    companyUrl: 'https://cryptavita.life',
+    position: 'Mobile Application Developer',
+    duration: '03/2024 - Current',
+    location: 'Kigali, Rwanda',
+    achievements: [
+      'Led development of early warning system for natural disasters.',
+      'Managed cross-functional team of developers.',
+      'Implemented solution to protect local schools from flood damage.',
+      'Conducted regular status meetings with internal teams and external partners to track progress against established milestones.',
+    ],
+  },
+  {
+    id: 3,
+    company: 'Freelance & Self employed',
+    companyUrl: '',
+    position: 'Full Stack Software Developer',
+    duration: '02/2023 - Current',
+    location: 'Kigali, Rwanda',
+    achievements: [
+      'Developed custom software solutions for diverse clients.',
+      'Managed the full project lifecycle from concept to delivery.',
+      'Specialised in Python, React, and mobile apps.',
+      'Independently designed and coded scalable software applications.',
+      'Successfully adapted to varied project requirements and tech stacks.',
+      'Ensured timely delivery and client satisfaction for all projects.',
+    ],
+  },
+  {
+    id: 4,
     company: 'Mak Design Private Limited',
     companyUrl: 'https://www.makdesign.in/',
     position: 'Software Development Engineer',
@@ -17,11 +63,11 @@ const workExperience = [
     location: 'Mumbai, Maharashtra (Remote)',
     achievements: [
       'Built a real-time notification module using Django and MongoDB, secured by end-to-end encryption, ensuring timely and confidential delivery of critical alerts to end-users.',
-      'Created a framework for performance analytics loading time, click event response time for maps rendered by different libraries using JavaScript and connected it to a React frontend.'
-    ]
+      'Created a framework for performance analytics loading time, click event response time for maps rendered by different libraries using JavaScript and connected it to a React frontend.',
+    ],
   },
   {
-    id: 2,
+    id: 5,
     company: 'Defence Research and Development Organisation (DRDO)',
     companyUrl: 'https://www.drdo.gov.in/drdo/',
     position: 'Software Development Engineer',
@@ -30,33 +76,33 @@ const workExperience = [
     achievements: [
       'Engineered a heavy-gas dispersion model (Java), with 92% predictive accuracy, enhancing hazard prediction capabilities for safety teams.',
       'Designed and implemented a Java Swing GUI, validated through improved usability testing, to streamline and simplify end-user interactions.',
-      'Developed a 2D plotting tool in Python backed by a Flask API, enabling data visualization that improved decision-making clarity among project stakeholders.'
-    ]
+      'Developed a 2D plotting tool in Python backed by a Flask API, enabling data visualization that improved decision-making clarity among project stakeholders.',
+    ],
   },
   {
-    id: 3,
+    id: 6,
     company: 'Verified Network',
     companyUrl: 'https://www.verified.network/',
     position: 'DevOps Engineer — Contract',
     duration: 'February 2023 — May 2023',
     location: 'Switzerland (Remote)',
     achievements: [
-      'Redesigned the trading platform\'s core engine by implementing an order-matching system using IPFS Merkle DAG and IPFS pub-sub on a Node.js/Express.js server, reducing transaction times by 70% and increasing marketplace efficiency.',
+      "Redesigned the trading platform's core engine by implementing an order-matching system using IPFS Merkle DAG and IPFS pub-sub on a Node.js/Express.js server, reducing transaction times by 70% and increasing marketplace efficiency.",
       'Achieved 90% test coverage by architecting comprehensive test suites with Chai and Mocha, ensuring robust code quality and reliability.',
-      'Engineered the CI/CD pipeline (GitHub Actions and AWS CodeDeploy) resulting in fully automated deployments and accelerating release cycles.'
-    ]
+      'Engineered the CI/CD pipeline (GitHub Actions and AWS CodeDeploy) resulting in fully automated deployments and accelerating release cycles.',
+    ],
   },
   {
-    id: 4,
+    id: 7,
     company: 'Metarootz',
     companyUrl: 'https://www.metarootz.io/',
     position: 'Software Development Engineer — Contract',
     duration: 'December 2022 — February 2023',
     location: 'Dubai, UAE (Remote)',
     achievements: [
-      'Developed a social media platform using Node.js/Express.js, Next.js, and MongoDB, scaled it to 10,000+ active users, and integrated WebSocket-based voice/video calling to boost user engagement and interaction.'
-    ]
-  }
+      'Developed a social media platform using Node.js/Express.js, Next.js, and MongoDB, scaled it to 10,000+ active users, and integrated WebSocket-based voice/video calling to boost user engagement and interaction.',
+    ],
+  },
 ]
 
 const Experience = () => {

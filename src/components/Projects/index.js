@@ -11,6 +11,36 @@ import './index.scss'
 const projects = [
   {
     id: 1,
+    title: 'Accessible Technology for the Disabled',
+    description: 'Co-founded Asivate to develop accessible technology for the disabled, leading software development for inclusive applications and ensuring products meet accessibility standards.',
+    technologies: ['React', 'Node.js', 'Accessibility', 'JavaScript'],
+    category: 'Social Impact',
+    status: 'In Progress',
+    year: '2024',
+    company: 'Asivate',
+    features: ['Accessible design', 'Inclusive applications', 'User-centric solutions', 'Empowering technology'],
+    images: [],
+    githubUrl: null,
+    liveUrl: null,
+    isPrivate: true
+  },
+  {
+    id: 2,
+    title: 'Early Warning System for Natural Disasters',
+    description: 'Led the development of a mobile application-based early warning system for natural disasters, aimed at protecting local schools from flood damage.',
+    technologies: ['Mobile Development', 'React Native', 'Node.js', 'APIs'],
+    category: 'Mobile Application',
+    status: 'In Progress',
+    year: '2024',
+    company: 'Cryptavita',
+    features: ['Early warning alerts', 'Flood damage prevention', 'Cross-functional team management', 'Real-time data'],
+    images: [],
+    githubUrl: null,
+    liveUrl: 'https://cryptavita.life',
+    isPrivate: false
+  },
+  {
+    id: 3,
     title: 'Real-time Notification System',
     description: 'Built a comprehensive real-time notification module using Django and MongoDB with end-to-end encryption for secure delivery of critical alerts.',
     technologies: ['Django', 'MongoDB', 'WebSocket', 'End-to-End Encryption', 'Python'],
@@ -30,7 +60,7 @@ const projects = [
     isPrivate: true
   },
   {
-    id: 2,
+    id: 4,
     title: 'Performance Analytics Framework',
     description: 'Created a comprehensive framework for tracking performance analytics including loading times and click event response times for map libraries, connected to a React frontend.',
     technologies: ['JavaScript', 'React', 'Performance API', 'Data Visualization', 'Analytics'],
@@ -50,7 +80,7 @@ const projects = [
     isPrivate: true
   },
   {
-    id: 3,
+    id: 5,
     title: 'Heavy-Gas Dispersion Model',
     description: 'Engineered a sophisticated heavy-gas dispersion model with 92% predictive accuracy, enhancing hazard prediction capabilities for safety teams.',
     technologies: ['Java', 'Mathematical Modeling', 'Algorithm Design', 'Safety Systems'],
@@ -70,7 +100,7 @@ const projects = [
     isPrivate: true
   },
   {
-    id: 4,
+    id: 6,
     title: 'Java Swing GUI Application',
     description: 'Designed and implemented a user-friendly Java Swing GUI validated through usability testing to streamline end-user interactions.',
     technologies: ['Java', 'Swing', 'GUI Design', 'Usability Testing', 'UX/UI'],
@@ -90,7 +120,7 @@ const projects = [
     isPrivate: true
   },
   {
-    id: 5,
+    id: 7,
     title: '2D Data Visualization Tool',
     description: 'Developed a Python-based 2D plotting tool backed by Flask API for enhanced data visualization and improved decision-making clarity.',
     technologies: ['Python', 'Flask', 'Data Visualization', 'API Development', 'Charts'],
@@ -110,7 +140,7 @@ const projects = [
     isPrivate: true
   },
   {
-    id: 6,
+    id: 8,
     title: 'IPFS Trading Platform Engine',
     description: 'Redesigned trading platform core engine with IPFS Merkle DAG and pub-sub system, reducing transaction times by 70%.',
     technologies: ['Node.js', 'Express.js', 'IPFS', 'Merkle DAG', 'Blockchain', 'Pub-Sub'],
@@ -130,7 +160,7 @@ const projects = [
     isPrivate: true
   },
   {
-    id: 7,
+    id: 9,
     title: 'Automated CI/CD Pipeline',
     description: 'Engineered comprehensive CI/CD pipeline using GitHub Actions and AWS CodeDeploy for fully automated deployments.',
     technologies: ['GitHub Actions', 'AWS CodeDeploy', 'DevOps', 'Automation', 'Cloud'],
@@ -150,7 +180,7 @@ const projects = [
     isPrivate: true
   },
   {
-    id: 8,
+    id: 10,
     title: 'Social Media Platform',
     description: 'Developed a scalable social media platform with WebSocket-based voice/video calling, serving 10,000+ active users.',
     technologies: ['Node.js', 'Express.js', 'Next.js', 'MongoDB', 'WebSocket', 'WebRTC'],
