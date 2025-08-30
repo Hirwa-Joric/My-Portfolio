@@ -13,7 +13,7 @@ const workExperience = [
     company: 'Asivate',
     companyUrl: 'https://asivate.com',
     position: 'Software Engineer',
-    duration: '08/2024 - Current',
+    duration: '08/2025 - Current',
     location: 'Kigali, Rwanda',
     achievements: [
       'Co-founded Aaviate, developing accessible technology for the disabled.',
@@ -29,7 +29,7 @@ const workExperience = [
     company: 'Cryptavita',
     companyUrl: 'https://cryptavita.life',
     position: 'Mobile Application Developer',
-    duration: '03/2024 - Current',
+    duration: '03/2025 - Current',
     location: 'Kigali, Rwanda',
     achievements: [
       'Led development of early warning system for natural disasters.',
